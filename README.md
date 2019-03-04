@@ -1,5 +1,7 @@
 Lerna tutorial
+```
 TLDR;
+
 npm install (installs lerna)
 
 lerna bootstrap (connects all the packages)
@@ -138,3 +140,4 @@ Note: This is an absolute path to the module. So if you ever move your lerna pro
 And volia! When we run node ./packages/usage/index.js we get our expected output!
 
 alpha beta
+```
