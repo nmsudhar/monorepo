@@ -1,0 +1,22 @@
+0 silly argv { _: [ 'ls' ],
+0 silly argv   since: 'some-branch',
+0 silly argv   lernaVersion: '3.10.8',
+0 silly argv   '$0': 'lerna' }
+1 notice cli v3.10.8
+2 verbose rootPath /Users/smuthusamy/Documents/Projects/monorepo
+3 silly hasTags
+4 verbose hasTags false
+5 info Looking for changed packages since some-branch
+6 silly diffSinceIn some-branch packages/alpha
+7 error Error: Command failed: git diff --name-only some-branch -- packages/alpha
+7 error fatal: bad revision 'some-branch'
+7 error
+7 error
+7 error     at makeError (/Users/smuthusamy/Documents/Projects/monorepo/node_modules/execa/index.js:174:9)
+7 error     at Function.module.exports.sync (/Users/smuthusamy/Documents/Projects/monorepo/node_modules/execa/index.js:338:15)
+7 error     at Object.execSync (/Users/smuthusamy/Documents/Projects/monorepo/node_modules/@lerna/child-process/index.js:22:16)
+7 error     at diffSinceIn (/Users/smuthusamy/Documents/Projects/monorepo/node_modules/@lerna/collect-updates/lib/make-diff-predicate.js:44:29)
+7 error     at hasDiffSinceThatIsntIgnored (/Users/smuthusamy/Documents/Projects/monorepo/node_modules/@lerna/collect-updates/lib/make-diff-predicate.js:15:18)
+7 error     at packages.forEach (/Users/smuthusamy/Documents/Projects/monorepo/node_modules/@lerna/collect-updates/collect-updates.js:66:50)
+7 error     at Map.forEach (<anonymous>)
+7 error     at collectUpdates (/Users/smuthusamy/Documents/Projects/monorepo/node_modules/@lerna/collect-updates/collect-updates.js:65:14)

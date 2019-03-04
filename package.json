@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@lerna/filter-options": "^3.10.6",
+    "lerna": "^3.10.8"
+  },
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "start": "npm -C ./packages/usage run start",
+    "package": "lerna run deploy --since master^"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@sparx/alpha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo Running ALPHA tests",
+    "deploy" : "echo Deploy Alpha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,14 @@
+lerna(info)    Lerna v2.0.0-beta.20
+lerna(debug)   Attempting running DiffCommand.initialize
+lerna(error)   Errored while running DiffCommand.initialize
+    Error: Can't diff. There are no commits in this repository, yet.
+        at DiffCommand.initialize (/usr/local/lib/node_modules/lerna/lib/commands/DiffCommand.js:62:18)
+        at DiffCommand._attempt (/usr/local/lib/node_modules/lerna/lib/Command.js:157:21)
+        at DiffCommand.runCommand (/usr/local/lib/node_modules/lerna/lib/Command.js:141:12)
+        at DiffCommand.run (/usr/local/lib/node_modules/lerna/lib/Command.js:65:12)
+        at Object.<anonymous> (/usr/local/lib/node_modules/lerna/bin/lerna.js:52:11)
+        at Module._compile (internal/modules/cjs/loader.js:688:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+        at Module.load (internal/modules/cjs/loader.js:598:32)
+        at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+        at Function.Module._load (internal/modules/cjs/loader.js:529:3)

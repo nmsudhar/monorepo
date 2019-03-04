@@ -1,0 +1,18 @@
+{
+  "name": "@sparx/usage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "deploy": "echo Deploy Usage",
+    "test": "echo Running USAGE tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sparx/alpha": "1.0.0",
+    "@sparx/beta": "1.0.0"
+  }
+}
